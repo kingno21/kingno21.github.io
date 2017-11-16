@@ -36,7 +36,7 @@ header {
 }
 
 #contents {
-  min-height: 650px;
+  display: block;
 }
 
 .background {
@@ -45,7 +45,7 @@ header {
 }
 
 footer {
-  background-color: #E2DCD5;
+  background-color: #555A5E;
   height: 60px;
   width: 100%;
   text-align: right;

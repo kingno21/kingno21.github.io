@@ -5,9 +5,8 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
 	<title>Home</title>
-	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
-	<link rel="stylesheet" href="assets/stylesheets/index.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../assets/stylesheets/index.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
 </head>
 
@@ -16,18 +15,16 @@
 		<div id="left" class="navi">
 			kingno21
 		</div>
-		<div id="center" class="navi">
-
-		</div>
+		<div id="center" class="navi"></div>
 		<div id="right" class="navi">
 			<i class="fa fa-bars" aria-hidden="true"></i>
 		</div>
 	</header>
 	<div class="menu-body"></div>
-	<div id="contents" class="name">
+	<section class="section" id="contents">
 		<div class="top_image">
 
-			<img class="background" src="assets/images/background.jpg" alt="" />
+			<img class="background" src="../assets/images/background.jpg" alt="" />
 			<div class="terminal">
 				<div class="cmd_line">
 					<span class="starter">$</span>
@@ -43,28 +40,22 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
+	<section class="section">
+		<div id="creations">
+			<div class="creation" style="background-image: url('../assets/images/editor.png');">
+				<a href="/editor">Node Editor</a>
+			</div>
+			<div class="creation" style="background-image: url('../assets/images/imagemapper.png');">
+				<a href="/imagemapper">Image Mapper</a>
+			</div>
+		</div>
+	</section>
 	<footer>
 		@ KingNo21
 	</footer>
 </body>
 
-<script src="./io.kingno21.bundle.js"></script>
-<script>
-	(function(i, s, o, g, r, a, m) {
-		i['GoogleAnalyticsObject'] = r;
-		i[r] = i[r] || function() {
-			(i[r].q = i[r].q || []).push(arguments)
-		}, i[r].l = 1 * new Date();
-		a = s.createElement(o),
-			m = s.getElementsByTagName(o)[0];
-		a.async = 1;
-		a.src = g;
-		m.parentNode.insertBefore(a, m)
-	})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-	ga('create', 'UA-104949268-1', 'auto');
-	ga('send', 'pageview');
-</script>
+<script src="../io.kingno21.bundle.js"></script>
 
 </html>

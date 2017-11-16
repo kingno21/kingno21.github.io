@@ -28,8 +28,8 @@ body {
 }
 
 header {
-  height: 100px;
-  background-color: #E8AA8C;
+  height: 40px;
+  background-color: #555A5E;
   opacity: .9;
   display: table;
   width: 100%;
@@ -214,5 +214,13 @@ footer {
 @keyframes type {
   to {
     width: 27em;
+  }
+}
+
+
+@media screen and (max-width: 570px) {
+
+  .terminal {
+    display: none;
   }
 }

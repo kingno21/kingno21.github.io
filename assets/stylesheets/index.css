@@ -18,13 +18,19 @@ body {
 }
 
 #right {
-  width: 20%;
+  width: 40%;
   padding-right: 20px;
   text-align: right;
 }
+#right .twitter_link {
+	text-decoration: none;
+}
+
+#right .twitter_icon {
+	height: 26px;
+}
 
 #center {
-  width: 60%;
 }
 
 header {
